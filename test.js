@@ -16,7 +16,7 @@ fetch(apiUrl, {
 })
 .then(response => {
   if (!response.ok) {
-    throw new Error("Failed to add data to the API.");
+    
   }
   return response.json();
 })
