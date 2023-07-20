@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 const apiUrl = "https://64b81d0721b9aa6eb0799195.mockapi.io/information/information";
 
 const data = {
